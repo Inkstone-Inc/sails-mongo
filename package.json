@@ -1,6 +1,6 @@
 {
   "name": "sails-mongo",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "description": "Mongo DB adapter for Sails.js",
   "main": "./lib/adapter.js",
   "scripts": {
@@ -40,7 +40,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-mongo.git"
+    "url": "git://github.com/Inkstone-Inc/sails-mongo.git"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
@@ -65,5 +65,6 @@
     "features": [
       "cross-adapter"
     ]
-  }
+  },
+  "private": true
 }
