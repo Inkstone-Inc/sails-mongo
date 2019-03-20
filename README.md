@@ -1,8 +1,6 @@
 ### WARNING
 
-This is a hard fork of sails-mongo to add compliance with Amazon DocumentDB and the mongodb nodejs driver v3.1.
-
-These changes are hacked together and dont have any real documentation and do not have full test coverage.
+This is a hard fork of sails-mongo to add compliance with Amazon DocumentDB and the mongodb nodejs driver v3.1. It is tested to work with node 10.15.3 and mongodb 3.1.13.
 
 For use with sails, the main change is the configuration schema. It has been updated to reflect passing connection options as a single flat object. See the MongoDB driver documentation for details on all connection options.
 
